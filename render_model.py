@@ -89,7 +89,7 @@ scene.update()
 
 scene.render.resolution_x = 512
 scene.render.resolution_y = 512
-
+scene.render.resolution_percentage = 100
 
 scene.camera = camera
 path = os.path.join(model_path, model)
